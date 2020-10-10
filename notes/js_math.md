@@ -23,3 +23,21 @@ Examples:
     
     /* DIVISION */
     num1 / num2; // divides 9 by 3 and returns a new value === 3.
+
+### Special Math Operations
+JavaScript also provides the following special mathematics operations:
+* Modulus (%) - Returns the remainder of a division operation.
+* Increment (++) - Increments or adds one to a value.
+* Decrement (--) - Decrements or removes one from a value.
+
+Examples:
+
+    let int1 = 10;
+    let int2 = 2;
+    
+    /* MODULUS */
+    int1 % int2; // returns the remainder 0.
+    
+    /* INCREMENT AND DECREMENT */
+    int1++; // int1 is now === 11.
+    int2--; // int2 is now === 1.
