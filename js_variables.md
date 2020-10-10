@@ -17,3 +17,13 @@ The "let" keyword is also used to declared variables and is a recent implementat
 * Block scoped - Available only within the start and end curly braces of a block of code.
 * Can be changed in scope.
 * Available "after" declaration - unlike the var keyword, the variabled will only be available from line 10 onwards.
+
+## Const Keyword
+The "const" keyword is similar to the var and let keywords, however it differs significantly from these two variable declaration types as it creates permanent, unchangeable variables, that once declared cannot be changed afterwards.
+
+Const stands for **Constant** Values and can only be assigned, and not reassigned, unlike var and let.
+
+Following are three key characteristics of **const**:
+* Block scope - similar to let.
+* Cannot be changed - Const is an immutable variable type.
+* Available "after" the declaration - similar to let.
