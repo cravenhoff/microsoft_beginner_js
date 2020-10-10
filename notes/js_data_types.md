@@ -24,8 +24,12 @@ JavaScript also deals with **special** data types that do not fit into the above
 
 ### Checking Data Types in JavaScript
 Values can be checked to confirm what data type they are using the following operators:
-* **typeof** - use the typeof keyword before the name of the variable or a value you want to check. Eg: *typeof true* will return "boolean". The return type of this operator is a string.
-* **instanceof** - instanceof checks whether an object belongs to a certain class or subclass (inherited class). Eg: *obj instanceof Class* will return true if obj's class is *Class* or belongs to a class inherited from it. The return type of this operator is a boolean value.
+* **typeof** - use the typeof keyword before the name of the variable or a value you want to check.
+
+      Eg: *typeof true* will return "boolean". The return type of this operator is a string.
+* **instanceof** - instanceof checks whether an object belongs to a certain class or subclass (inherited class).
+
+      Eg: *obj instanceof Class* will return true if obj's class is *Class* or belongs to a class inherited from it. The return type of this operator is a boolean value.
 
 ### Equality and Strict Equality Operators
 Another common method for checking or comparing values and their data types in JavaScript is through the equality and strict equality operators and their NOT sibling operators.
@@ -38,11 +42,11 @@ All four comparison operators return a boolean value of either true or false.
 
 **Examples:**
 
-let x = 0 == ""; // true, type coerced.
+    let x = 0 == ""; // true, type coerced.
 
 Assigns the number zero and checks to see if zero is *equal* to the empty string. The operation returns true because the equality operator disregards the type of zero and the empty string. Both zero and an empty string are *falsey* values.
 
-let y = 0 === "" // false, type respected.
+    let y = 0 === "" // false, type respected.
 
 Assigns to y the number zero and checks to see if zero is *strictly equal* to an empty string. The comparison operation returns false because number is not the same type as a string.
 
