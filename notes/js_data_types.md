@@ -52,6 +52,8 @@ Assigns to y the number zero and checks to see if zero is *strictly equal* to an
   * **Primitive Data Types** - Number, bigint, string, boolean, undefined and null.
   * **Object Data Types** - Objects, functions and arrays.
 * Furthermore, primitive data types are also classified as **Atomic Values** whilst object data types are classified as **Compositive Values**.
+* The main difference between primitive data types and object data types is that primitive data types are **immutable**, whilst object data types are **mutable**. Primitive data types are immutable in that once a value has been assigned to a variable, it does not change, even after new reassignments. The reassignments simply make *copies* of the original value. This is known as **passing variables by values**.
+Object data types on the other hand can change the original value assigned and hence are mutable.
 * Null and undefined are not **strictly** equal (===), however, they are loosely equal (==). This is because null is actualy an object (an error in the beginning implementations of JavaScript) when using the **typeof** operator, while undefined is a primitive data type.
 * JavaScript has six **falsey** values, two of which are null and undefined. Any other value is considered **truthy**.
   * **0** - the number zero.
