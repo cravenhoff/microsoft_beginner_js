@@ -39,8 +39,8 @@ The typeof operator only tests primitive data types, so if typeof is applied to 
     typeof fruits; // returns a non-primitive type of "object".
       
 #### Instanceof Operator
-The instanceof checks whether an object belongs to a certain class or subclass (inherited class).
-Format: value instanceof type.
+The instanceof checks whether an object belongs to a certain class or subclass (inherited class).  
+*Format: value instanceof type*.
 
     Eg: obj instanceof Class; // will return true if obj's class is Class or belongs to a class inherited from it. The return type of this operator is a boolean value.
 
