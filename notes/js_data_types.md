@@ -41,3 +41,4 @@ Values can be checked to confirm what data type they are using the following ope
   * **NaN** - not a number.
   * **False** - the false boolean value itself.
 * JavaScript also has another primitive data type called **Symbols**. Symbols are essentially another type of object property keys (names); strings are usually the most common property key data type.
+* Both the typeof and instanceof operators can also be used as methods: typeof() and instanceof().
