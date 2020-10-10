@@ -18,12 +18,12 @@ Development using JavaScript outside the browser, is JavaScript in the Server. T
 ## Popular JavaScript-Based Applications
 To drive home how powerful JavaScript is, the following popular and most-loved applications were built using JavaScript:
 
-** Microsoft's VS Code
-** Slack Desktop App - Built using Electron (A JS Framework for cross-platform developing desktop applications)
-** WhatsApp Web and Desktop Apps
-** Netflix - Streaming Platform Application (Built using Node)
-** Uber
-** GoDaddy
-** eBay
-** Facebook
-** Linkedin
+* Microsoft's VS Code
+* Slack Desktop App - Built using Electron (A JS Framework for cross-platform developing desktop applications)
+* WhatsApp Web and Desktop Apps
+* Netflix - Streaming Platform Application (Built using Node)
+* Uber - Platform
+* GoDaddy Web Application
+* eBay Web-based Platform
+* Facebook Web and Desktop App
+* Linkedin Web and Desktop App
