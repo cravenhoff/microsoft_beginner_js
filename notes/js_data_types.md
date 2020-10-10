@@ -27,6 +27,15 @@ Values can be checked to confirm what data type they are using the following ope
 * **typeof** - use the typeof keyword before the name of the variable or a value you want to check. Eg: *typeof true* will return "boolean". The return type of this operator is a string.
 * **instanceof** - instanceof checks whether an object belongs to a certain class or subclass (inherited class). Eg: *obj instanceof Class* will return true if obj's class is *Class* or belongs to a class inherited from it. The return type of this operator is a boolean value.
 
+### Equality and Strict Equality Operators
+Another common method for checking or comparing values and their data types in JavaScript is through the equality and strict equality operators and their NOT sibling operators.
+* **Equality Operator (==)** - Checks to see if a value is EQUAL to another, regardless of data type.
+* **Inequality Operator (!=)** - Checks to see if a value is NOT Equal to another, also regardless of data type.
+* **Strict Equality Operator (===)** - Uses three equal sign symbols and checks if a value is STRICTLY EQUAL to another and are of the same type.
+* **Strict Inequality Operator (!==)** - Checks to is a value is STRICT INEQUAL to another and are of the same type.
+
+All four comparison operators return a boolean value of either true or false.
+
 ## Notes
 * All data types in JavaScript fall into one of two categories:
   * **Primitive Data Types** - Number, bigint, string, boolean, undefined and null.
