@@ -37,11 +37,19 @@ The typeof operator only tests primitive data types, so if typeof is applied to 
     
     let fruits = ["apples", "grapes", "cucumber"];
     typeof fruits; // returns a non-primitive type of "object".
+    
+    let raining = new Boolean(true);
+    typeof raining; // this time, typeof does not return the primitive type "boolean" but an object type, because the variable "raining" was declared using a constructor function, and not declared literally like the above variable "carrot".
       
 The typeof operator returns the data type in string format.
 
 #### Instanceof Operator
-The instanceof checks whether an object belongs to a certain class or subclass (inherited class).  
+The instanceof checks whether:
+* An object belongs to a certain class or subclass (inherited class), or
+* Is an instance of a constructor variable used to create it.
+
+Either way, it comes down fundamentally to how the variables were declared, either *literally* or through a *constructor function*.
+
 *Format: value instanceof type*.
 
     Eg: obj instanceof Class; // will return true if obj's class is Class or belongs to a class inherited from it. The return type of this operator is a boolean value.
