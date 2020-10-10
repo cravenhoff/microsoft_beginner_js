@@ -36,6 +36,17 @@ Another common method for checking or comparing values and their data types in J
 
 All four comparison operators return a boolean value of either true or false.
 
+**Examples:**
+
+let x = 0 == ""; // true, type coerced.
+
+Assigns the number zero and checks to see if zero is *equal* to the empty string. The operation returns true because the equality operator disregards the type of zero and the empty string. Both zero and an empty string are *falsey* values.
+
+let y = 0 === "" // false, type respected.
+
+Assigns to y the number zero and checks to see if zero is *strictly equal* to an empty string. The comparison operation returns false because number is not the same type as a string.
+
+
 ## Notes
 * All data types in JavaScript fall into one of two categories:
   * **Primitive Data Types** - Number, bigint, string, boolean, undefined and null.
