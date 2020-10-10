@@ -27,3 +27,10 @@ Following are three key characteristics of **const**:
 * Block scope - similar to let.
 * Cannot be changed - Const is an immutable variable type.
 * Available "after" the declaration - similar to let.
+
+## What Variable Declaration Type to Use and When?
+Since all three variable declarations essentially achieve the same result - create a variable, which ones should we use and when should we use them.
+
+Right off the bat, it's recommended to use just **const** and **let**. This ensures avoiding conflicts with scope when using var.
+
+Generally speaking, it is advised that const be the main variable declaration type used over let. The let keyword shoud only be used when dealing with loops, which often times will require variable reassignment after every iteration, something const cannot achieve.
