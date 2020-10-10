@@ -41,3 +41,10 @@ Examples:
     /* INCREMENT AND DECREMENT */
     int1++; // int1 is now === 11.
     int2--; // int2 is now === 1.
+
+### Math Object
+JavaScript can perform even more complex mathematical operations using the Math Object.
+
+Here are the common mathematical operations that can be performed using the Math Object.
+* `Math.PI` - Returns the PI Constant `3.141592653589793`.
+* `Math.sqrt()` - Returns the square root of a number.
