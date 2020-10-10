@@ -14,3 +14,16 @@ JavaScript in the browser encompasses what is called "front-end development". In
 On the other hand, JavaScript now has the capability to run outside of the browser, using a runtime environment called "Node" or Node.js. Because JavaScript now does not run in the browser, it does not have access to the DOM. This means that there's little to nothing JavaScript can do in Node to interact with and manipulate the DOM (Elements of a web page). However, there's a lot of possibilities that open up when JavaScript is used in Node.
 
 Development using JavaScript outside the browser, is JavaScript in the Server. This type of development is known as "back-end development". JavaScript back-end development or "server-side programming" generally involves the development of programming logic that processes server-side operations such as making API calls to external web services, connecting to a databse, connecting to a server, and yes, even creating a server. It is these array of capabilities in server-side programming that really bring out the dynamic and versatility of JavaScript.
+
+## Popular JavaScript-Based Applications
+To drive home how powerful JavaScript is as a full-stack language, the following popular and most-loved applications were built using JavaScript:
+
+** Microsoft's VS Code
+** Slack Desktop App - Built using Electron (A JS Framework for cross-platform developing desktop applications)
+** WhatsApp Web and Desktop Apps
+** Netflix - Streaming Platform Application (Built using Node)
+** Uber
+** GoDaddy
+** eBay
+** Facebook
+** Linkedin
