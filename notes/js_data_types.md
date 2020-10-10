@@ -24,7 +24,9 @@ JavaScript also deals with **special** data types that do not fit into the above
 
 ### Checking Data Types in JavaScript
 Values can be checked to confirm what data type they are using the following operators:
-* **typeof** - use the typeof keyword before the name of the variable or a value you want to check.
+
+#### Typeof Operator
+Format: Use the typeof keyword before the name of the variable or a value you want to check.
 
       Eg: typeof true; // will return "boolean". The return type of this operator is a string.
 
@@ -36,7 +38,9 @@ The typeof operator only tests primitive data types, so if typeof is applied to 
       let fruits = ["apples", "grapes", "cucumber"];
       typeof fruits; // returns a non-primitive type of "object".
       
-* **instanceof** - instanceof checks whether an object belongs to a certain class or subclass (inherited class).
+#### Instanceof Operator
+The instanceof checks whether an object belongs to a certain class or subclass (inherited class).
+Format: value instanceof type.
 
       Eg: obj instanceof Class; // will return true if obj's class is Class or belongs to a class inherited from it. The return type of this operator is a boolean value.
 
