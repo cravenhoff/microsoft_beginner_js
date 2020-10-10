@@ -38,6 +38,8 @@ The typeof operator only tests primitive data types, so if typeof is applied to 
     let fruits = ["apples", "grapes", "cucumber"];
     typeof fruits; // returns a non-primitive type of "object".
       
+The typeof operator returns the data type in string format.
+
 #### Instanceof Operator
 The instanceof checks whether an object belongs to a certain class or subclass (inherited class).  
 *Format: value instanceof type*.
@@ -53,6 +55,8 @@ The instanceof operator, other than typeof, can check and test object-based data
     name instanceof String; // returns TRUE
     age instanceof Number; // returns TRUE
     hobbies instanceof Array; // returns TRUE as it recognizes hobbies as an instance of an Array Type.
+
+The instanceof operator returns a boolean value of either true or false.
 
 ### Equality and Strict Equality Operators
 Another common method for checking or comparing values and their data types in JavaScript is through the equality and strict equality operators and their NOT sibling operators.
