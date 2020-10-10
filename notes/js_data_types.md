@@ -21,3 +21,10 @@ JavaScript also deals with **special** data types that do not fit into the above
 * **NaN** (Not a Number) - Used to specify that a conversion of a particular data type cannot be executed as it is NOT A NUMBER.
 * **Null** - An "empty" value "assigned" to a variable.
 * **Undefined** - Value assigned by default to variables that are declared but do not have a value (and data type) explicitly defined.
+
+## Notes
+* All data types in JavaScript fall into one of two categories:
+  * **Primitive Data Types** - Number, bigint, string, boolean, undefined and null.
+  * **Object Data Types** - Objects, functions and arrays.
+* Furthermore, primitive data types are also classified as **Atomic Values** whilst object data types are classified as **Compositive Values**.
+* Null and undefined are not **strictly** equal (===), however, they are loosely equal (==). This is because null is actualy an object (an error in the beginning implementations of JavaScript) when using the **typeof** operator, while undefined is a primitive data type.
