@@ -22,6 +22,11 @@ JavaScript also deals with **special** data types that do not fit into the above
 * **Null** - An "empty" value "assigned" to a variable.
 * **Undefined** - Value assigned by default to variables that are declared but do not have a value (and data type) explicitly defined.
 
+### Checking Data Types in JavaScript
+Values can be checked to confirm what data type they are using the following operators:
+* **typeof** - use the typeof keyword before the name of the variable or a value you want to check. Eg: *typeof true* will return "boolean". The return type of this operator is a string.
+* **instanceof** - instanceof checks whether an object belongs to a certain class or subclass (inherited class). Eg: *obj instanceof Class* will return true if obj's class is *Class* or belongs to a class inherited from it. The return type of this operator is a boolean value.
+
 ## Notes
 * All data types in JavaScript fall into one of two categories:
   * **Primitive Data Types** - Number, bigint, string, boolean, undefined and null.
