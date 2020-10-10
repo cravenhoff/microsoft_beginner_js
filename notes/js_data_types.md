@@ -28,3 +28,11 @@ JavaScript also deals with **special** data types that do not fit into the above
   * **Object Data Types** - Objects, functions and arrays.
 * Furthermore, primitive data types are also classified as **Atomic Values** whilst object data types are classified as **Compositive Values**.
 * Null and undefined are not **strictly** equal (===), however, they are loosely equal (==). This is because null is actualy an object (an error in the beginning implementations of JavaScript) when using the **typeof** operator, while undefined is a primitive data type.
+* JavaScript has six **falsey** values, two of which are null and undefined. Any other value is considered **truthy**.
+  * **0** - the number zero.
+  * **""** - an empty string.
+  * **Null** - empty data type.
+  * **Undefined** - default undefined value.
+  * **NaN** - not a number.
+  * **False** - the false boolean value itself.
+* JavaScript also has another primitive data type called **Symbols**. Symbols are essentially another type of object property keys (names); strings are usually the most common property key data type.
