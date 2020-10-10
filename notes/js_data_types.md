@@ -28,31 +28,31 @@ Values can be checked to confirm what data type they are using the following ope
 #### Typeof Operator
 Format: Use the typeof keyword before the name of the variable or a value you want to check.
 
-      Eg: typeof true; // will return "boolean". The return type of this operator is a string.
+    Eg: typeof true; // will return "boolean". The return type of this operator is a string.
 
 The typeof operator only tests primitive data types, so if typeof is applied to finding the data type of a non-primitive value like an Array, the operator will return a type of *Object* instead of *Array*.
 
-      Eg: let carrots = 2;
-      typeof carrots; // returns primitive type "number".
-      
-      let fruits = ["apples", "grapes", "cucumber"];
-      typeof fruits; // returns a non-primitive type of "object".
+    Eg: let carrots = 2;
+    typeof carrots; // returns primitive type "number".
+    
+    let fruits = ["apples", "grapes", "cucumber"];
+    typeof fruits; // returns a non-primitive type of "object".
       
 #### Instanceof Operator
 The instanceof checks whether an object belongs to a certain class or subclass (inherited class).
 Format: value instanceof type.
 
-      Eg: obj instanceof Class; // will return true if obj's class is Class or belongs to a class inherited from it. The return type of this operator is a boolean value.
+    Eg: obj instanceof Class; // will return true if obj's class is Class or belongs to a class inherited from it. The return type of this operator is a boolean value.
 
 The instanceof operator, other than typeof, can check and test object-based data types as well.
 
-      Eg: const name = "Aaron";
-      const age = 32;
-      const hobbies = ["music", "skating", "formula one driving"];
+    Eg: const name = "Aaron";
+    const age = 32;
+    const hobbies = ["music", "skating", "formula one driving"];
       
-      name instanceof String; // returns TRUE
-      age instanceof Number; // returns TRUE
-      hobbies instanceof Array; // returns TRUE as it recognizes hobbies as an instance of an Array Type.
+    name instanceof String; // returns TRUE
+    age instanceof Number; // returns TRUE
+    hobbies instanceof Array; // returns TRUE as it recognizes hobbies as an instance of an Array Type.
 
 ### Equality and Strict Equality Operators
 Another common method for checking or comparing values and their data types in JavaScript is through the equality and strict equality operators and their NOT sibling operators.
