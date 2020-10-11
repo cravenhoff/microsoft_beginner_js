@@ -23,6 +23,8 @@ console.log("---- Converted value of num: parseInt() ----");
 console.log(parseInt(num)); // 5
 console.log(parseInt(num) + 5); // 10
 console.log(parseInt("1.5")); // Disregards any special character and anything after that. Prints out just 1
+console.log(parseInt(`${1 + 2}`)); // Returns 3 as a template string/literal can "evaluate" expressions.
+console.log(typeof parseInt(`${1 + 2}`)); // number
 console.log(parseInt("ABC")); // Returns NaN
 console.log(typeof num); // string
 
